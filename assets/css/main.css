@@ -9,6 +9,11 @@
 	background-color: white;
 }
 
+#navbar img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
 /* diseño sección hero*/
 
 #hero{
@@ -65,3 +70,69 @@
 	border-style: right solid white;
 
 }
+
+/*diseño sección conduce*/
+
+#conduce{
+	background-image: url(../img/conduce.jpg);
+	color: whitesmoke;
+	margin-top: -21px;
+	background-repeat: no-repeat;                          
+	height: 510px;       
+	width: 100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:30% 95%;
+}
+
+
+#recuadro-conductor{
+	background-color:black;
+	width: 40%;
+	position: relative;
+	float: right;
+	opacity: 0.7;
+}
+
+
+#conduce button{
+	color: whitesmoke;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: #f7b617;
+	height: 40px;
+	width: 220px;
+}
+
+/*diseño sección tarifas*/
+
+#tarifas{
+	background-color: #f7b617;
+	color: whitesmoke;
+	font-size: 18px;
+	height: 300px;
+}
+
+#tarifas img{
+	width: 3%;
+	color: white;
+	margin-left: 10px;
+}
+
+#tarifas button{
+	color: black;
+	width: 160px;
+}
+
+#tarifas input{
+	background-color: #f7b617;
+	color: white;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+

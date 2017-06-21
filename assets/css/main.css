@@ -14,7 +14,7 @@
 #hero{
 	background-image: url(../img/taxi.jpg);
 	color: whitesmoke;
-	margin-top: 0;
+	margin-top: -21px;
 	background-repeat: no-repeat;                          
 	height: 510px;       
 	width: 100%;
@@ -22,7 +22,7 @@
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
-	background-position:30% 90%;
+	background-position:30% 95%;
 }
 
 #hero input{
@@ -51,4 +51,17 @@
 	margin-left: 10px;
 	border-radius: 5px;
 	background-color: whitesmoke;
+}
+
+/*diseño sección información*/
+
+#info{
+	background-color: #f7b617;
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+#parrafo p{
+	border-style: right solid white;
+
 }

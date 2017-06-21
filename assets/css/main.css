@@ -146,4 +146,22 @@
 	border: 2px solid white;
 }
 
+/*diseño sección footer*/
+#pie-pag{
+	background-color: #2b2b2b;
+	color:white;
+}
+
+#pie-pag img{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+ 
+ #pie-pag p{
+ 	text-align: center;
+ }
+
+ #pie-pag i{
+ 	margin-right: 10px;
+ }
 

@@ -4,6 +4,51 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* diseño sección nav*/
+#navbar{
+	background-color: white;
+}
+
+/* diseño sección hero*/
+
+#hero{
+	background-image: url(../img/taxi.jpg);
+	color: whitesmoke;
+	margin-top: 0;
+	background-repeat: no-repeat;                          
+	height: 510px;       
+	width: 100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:30% 90%;
+}
+
 #hero input{
 	width: 80px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	height: 0;
+}
+
+#recuadro-registro{
+	background-color:#f7b617;
+	width: 40%;
+	position: relative;
+	float: right;
+	
+}
+
+#recuadro-registro h3 img{
+	color: whitesmoke;
+}
+
+#hero button{
+	color: black;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	background-color: whitesmoke;
 }

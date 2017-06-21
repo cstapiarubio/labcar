@@ -156,12 +156,20 @@
 	margin-left: 20px;
 	margin-top: 20px;
 }
- 
- #pie-pag p{
- 	text-align: center;
- }
 
- #pie-pag i{
- 	margin-right: 10px;
- }
+#pie-pag p{
+	text-align: center;
+}
+
+#pie-pag i{
+	margin-right: 10px;
+
+}
+
+#pie-pag a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 15px;
+	align-content: flex-end;
+}
 

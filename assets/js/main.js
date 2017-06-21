@@ -5,18 +5,18 @@ function initMap(){
 		mapTypeControl:false,
 		zoomControl: false,
 		streetViewControl:false
-});
-function buscar(){
+	});
+	function buscar(){
 		if(navigator.geolocation){
 			navigator.geolocation.getCurrentPosition(funcionExito, funcionError);
 		}
 	}
-document.getElementById("ruta").addEventListener("click",buscar);
-var latitud,longitud;
-var funcionExito = function(posicion){
+	document.getElementById("ruta").addEventListener("click",buscar);
+	var latitud,longitud;
+	var funcionExito = function(posicion){
 		latitud = posicion.coords.latitude;
 		longitud = posicion.coords.longitude;
-        var miUbicacion = new google.maps.Marker({
+		var miUbicacion = new google.maps.Marker({
 			position: {lat:latitud, lng:longitud},
 			animation: google.maps.Animation.DROP,
 			map: map

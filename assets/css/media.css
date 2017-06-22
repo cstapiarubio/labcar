@@ -3,38 +3,9 @@
 		display: hidden;
 		visibility: hidden;
 	}
-}
 
-/*#nav{
-	background-color:#4E509C;
-	
-}@media (max-width:767px)
-
-#navegador a{
-color:#323235;
-}
-	
-#home button{
-	background-color:#101378;
-}	
-
-}
-
-@media only screen and  (min-width: 200px) and (max-width: 534px){
-	
-	body{
-		background: #07B399;
-		font-family: "Indie Flower", cursive;
-		color:#DFDFDF;
-	}
-	
-	#home form{
-		display: block;
-
+	#conduce{
+		background-image: hidden;
 	}
 }
-
-#conduce{
-	overflow: hidden;
-	}*/
 
